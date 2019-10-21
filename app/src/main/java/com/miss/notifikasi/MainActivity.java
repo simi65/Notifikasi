@@ -50,6 +50,6 @@ Kemudian kita harus menambahkan Notification dengan menggunakan NotificationMana
 
         notificationManager.notify(NOTIFICATION_ID, builder.build()
         );
-    }
+    
 
 }
