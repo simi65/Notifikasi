@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+         getSupportActionBar().setDisplayShowEnabled(true);
 
 
         getSupportActionBar().setSubtitle("BY: MISBAH BAGASKARA PURWANTO");
@@ -49,6 +50,6 @@ Kemudian kita harus menambahkan Notification dengan menggunakan NotificationMana
 
         notificationManager.notify(NOTIFICATION_ID, builder.build()
         );
-    }
+    
 
 }
